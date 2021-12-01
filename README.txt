@@ -1,7 +1,3 @@
-COEN 233 Programming Assignment
-
-Student name: Yingjian Huang
-Student ID: W1609532
 
 % Precliam: This code take partial reference from Youtube, "UDP Programming in C"
 % following:  https://www.youtube.com/watch?v=Emuw71lozdA
