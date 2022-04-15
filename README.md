@@ -1,6 +1,10 @@
-% Precliam: This code take partial reference from Youtube, "UDP Programming in C"
-% following:  https://www.youtube.com/watch?v=Emuw71lozdA
+## 1. Precliam: 
+- This code take partial reference from Youtube, "UDP Programming in C"  
+- following: [UDP Programming in C](https://www.youtube.com/watch?v=Emuw71lozdA)
 
+<br>
+
+## 2. How to run 
 To run the code in either /Assignemnt1 or /Assignemnt2, please execute the following commands:
 
 ```shell
@@ -10,11 +14,12 @@ gcc file_name.c -o compiled_name
 
 for example, `gcc server.c -o server` and `./server`, then the server will run.
 
-* IMPORTANT: You must run the server first! 
+**IMPORTANT**: You must run the server first!
 
--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
-                            Assignemnt 1
--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+<br>
+
+## 3. Overview
+### Assignemnt 1
 To test the different cases, you may have to manually modifiy the text file read by the program.
 There are two text files, "normal_case.txt" and "abnormal_case.txt".
 % Assignemnt1/client.c line 41
@@ -30,11 +35,9 @@ Testing Process:
 4. Save the file (cmd + s for MacOS, ctrl + s for Windows/Linux) and run `gcc client.c -o client` and `./client` in the terminal
 5. Verify the result
 
+<br>
 
-
--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
-                            Assignemnt 2
--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+### Assignemnt 2
 Similar to Assignment 1, Assignment 2 is built based on the framewrok of Assignemnt1
 There are two text files as well:
 - `requests.txt` contains the request (valid and invalid) that are ready to be sent
